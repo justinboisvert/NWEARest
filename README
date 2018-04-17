@@ -8,7 +8,7 @@ bundle
 
 ./run-server # 
 
-- To run server tests, run the following command with the server running (with # being the server's binded port):
+- To test out adding and retrieving posts run the following command with the server running (with # being the server's binded port):
 
 ruby test/populate_and_retrieve.rb #
 

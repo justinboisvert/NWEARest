@@ -6,7 +6,9 @@ require 'unirest'
 # Populates and retrives posts on REST API that assumes it's running on 8080
 #
 
-path = "localhost:8080"
+port = ARGV[0]
+
+path = "localhost:#{port}"
 
 Unirest.post("#{path}/post", parameters:{:title => "It's the only logical solution.", :body => "You hire Justin Boisvert."}.to_json)
 

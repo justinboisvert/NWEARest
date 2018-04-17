@@ -8,8 +8,8 @@ bundle
 
 ./run-server # 
 
-- To run server tests, run the following command:
+- To run server tests, run the following command with the server running (with # being the server's binded port):
 
-ruby test/populate_and_retrieve.rb
+ruby test/populate_and_retrieve.rb #
 
 

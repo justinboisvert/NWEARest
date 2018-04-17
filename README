@@ -1,10 +1,10 @@
-** Please make sure you have C/C++ build tools installed and sqlite3 header files (libsqlite3-dev) before running the next commands will build out native gem extensions
+** Please make sure you have C/C++ build tools installed and sqlite3 header files (libsqlite3-dev) before running the next commands because they are needed to build out native gem extensions
 
 - To set up server dependencies, run the following commnand:
 
 bundle
 
-- To run server, run the following command (with # being your desired port number):
+- To run server, run the following command (with # being your desired port to bind to):
 
 ./run-server # 
 

@@ -3,7 +3,7 @@
 require 'unirest'
 
 #
-# Populates and retrives posts on REST API that assumes it's running on 8080
+# Populates and retrives posts on REST API
 #
 
 port = ARGV[0]
